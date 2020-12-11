@@ -5,6 +5,95 @@ All notable changes to this project will be documented in this file.
 The format is based on [Keep a Changelog](https://keepachangelog.com/en/1.0.0/),
 and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0.html).
 
+## [2.0.0] - 2020-12-02
+
+### Changed
+
+- Dropped PHP 7.1, Laravel 6 and Nova 2 support
+
+## [1.11.5] - 2020-11-24
+
+### Changed
+
+- Fixed `->belongsToMany` crashing with an invalid relationship method and value
+
+## [1.11.4] - 2020-11-24
+
+### Changed
+
+- Fixed `->belongsTo` crashing with an invalid relationship method and value
+
+## [1.11.3] - 2020-11-18
+
+### Changed
+
+- Fixed `->belongsTo` crashing on create view
+
+## [1.11.2] - 2020-11-18
+
+### Changed
+
+- Fixed help text not being displayed
+- Fixed a plausible crash when using `dependsOnOptions`
+- Made `belongsTo` and `belongsToMany` async optional (second argument is now a boolean toggling async)
+- Updated packages
+
+## [1.11.1] - 2020-10-30
+
+### Changed
+
+- Upgraded nova-translations-loader
+- Fix translations publishing
+
+## [1.11.0] - 2020-10-30
+
+### Added
+
+- Added async searching (thanks to [@MarikaMustV](https://github.com/MarikaMustV))
+- Added `belongsTo`
+- Make `belongsToMany` work asynchronously
+
+### Changed
+
+- Updated packages
+
+## [1.10.3] - 2020-10-22
+
+### Added
+
+- Added Estonian (et) translations
+- Replaced translations logic with `nova-translations-loader`
+
+## [1.10.2] - 2020-10-22
+
+### Changed
+
+- Fixed `belongsToMany` in some cases (thanks to [@DanielLavoie90](https://github.com/DanielLavoie90))
+- Updated packages
+
+## [1.10.1] - 2020-10-14
+
+### Changed
+
+- Fixed `belongsToMany` in some cases
+- Updated packages
+
+## [1.10.0] - 2020-09-25
+
+### Added
+
+- Support for `->belongsToMany()` usage
+
+### Changed
+
+- Updated packages
+
+## [1.9.9] - 2020-09-14
+
+### Changed
+
+- Added Dutch translations (thanks to [@preliot](https://github.com/preliot))
+
 ## [1.9.8] - 2020-09-04
 
 ### Changed
